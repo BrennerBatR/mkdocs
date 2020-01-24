@@ -1,0 +1,31 @@
+site_name: Documentação Hubo
+nav:
+    - Home: index.md
+    - Rekognition: rekognition.md
+   
+theme:
+  language: 'pt'
+  search:
+    language: 'pt, en'
+  name: material
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  feature:
+    tabs: true
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+extra_css:
+  - https://unpkg.com/browse/mermaid@7.0.2/dist/mermaid.css
+extra_javascript:
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
+# plugins:
+#     - pdf-export:
+#         combined: true
+#         media_type: print
