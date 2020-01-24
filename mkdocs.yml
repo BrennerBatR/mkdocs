@@ -1,7 +1,6 @@
 site_name: Documentação Hubo
 nav:
-    - Home: index.md
-    - Rekognition: rekognition.md
+    - Recognition: recognition.md
    
 theme:
   language: 'pt'
